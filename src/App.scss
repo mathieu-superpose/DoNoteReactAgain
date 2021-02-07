@@ -9,12 +9,32 @@ body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
+.app {
+  display: flex;
+  flex-direction: column;
+}
 .header {
   font-size: 2rem;
   min-height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.components {
+  display: flex;
+  flex-direction: row;
+}
+.columnLeft {
+  width: 25vw;
+  height: 80vh;
+}
+.bigdisplay {
+  width: 75vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: felx-start;;
+  flex-wrap: wrap;
 }
 .display{
   height: 40vh;
@@ -24,7 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70vw;
+  width: 60vw;
 }
 .title,
 .note,
@@ -49,4 +69,18 @@ body {
 .displayNote {
   height: 35vh;
 }
-
+.stickylist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.stickynote {
+  width: 70%;
+  border-radius: 5px;
+  border: 2px solid #FEFF9C;
+  margin: 0 10px 10px 10px;
+  padding: 10px;
+  background-color: #FEFF9C;
+  color: #3E3E3E;
+  list-style: none;
+}
