@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+.header {
+  font-size: 2rem;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display{
+  height: 40vh;
+}
+.markdownInput,
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+}
+.title,
+.note,
+.displayTitle,
+.displayNote {
+  border: none;
+  padding: 10px;
+  width: 80%;
+}
+.note {
+  border-radius: 0 0 5px 5px;
+}
+.displayTitle,
+.displayNote {
+  background-color: #FEFF9C;
+  color: #3E3E3E;
+}
+.displayTitle {
+  height: 5vh;
+  border-radius: 5px 5px 0 0;
+}
+.displayNote {
+  height: 35vh;
+}
+
