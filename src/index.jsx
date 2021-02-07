@@ -1,7 +1,8 @@
 import './App.scss';
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import MarkdownInput from 'components/MarkdownInput'
+import Display from 'components/Display';
+import MarkdownInput from 'components/MarkdownInput';
 
 const App = () => {
 	const [title, setTitle] = useState('');
@@ -11,7 +12,8 @@ const App = () => {
 	    <div className='app'>
 			<header className='header'>
 				<h1>Do Note React Again</h1>
-			</header>	
+			</header>
+			<Display title={title} note={note} />
 			<MarkdownInput setTitle={setTitle} setNote={setNote} />
 	    </div>
     );

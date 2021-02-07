@@ -16,15 +16,37 @@ body {
   justify-content: center;
   align-items: center;
 }
-.markdownInput {
+.display{
+  height: 40vh;
+}
+.markdownInput,
+.display {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 70vw;
-  align-items: flex-end;
 }
-.title {
-
+.title,
+.note,
+.displayTitle,
+.displayNote {
+  border: none;
+  padding: 10px;
+  width: 80%;
 }
 .note {
-  
+  border-radius: 0 0 5px 5px;
 }
+.displayTitle,
+.displayNote {
+  background-color: #FEFF9C;
+  color: #3E3E3E;
+}
+.displayTitle {
+  height: 5vh;
+  border-radius: 5px 5px 0 0;
+}
+.displayNote {
+  height: 35vh;
+}
+
