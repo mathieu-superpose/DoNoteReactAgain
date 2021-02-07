@@ -11,9 +11,9 @@ const MarkdownInput = ( {setTitle, setNote} ) => {
 	};
 
 	return (
-	<div>
-		<input onChange={getTitle} type="text" />
-		<textarea onChange={getNote} id="w3review" name="w3review" rows="4" cols="50" />
+	<div className='markdownInput'>
+		<input onChange={getTitle} className='title' type="text" />
+		<textarea onChange={getNote} className='note' rows="4" cols="50" />
 	</div>
 	);
 };

@@ -9,10 +9,22 @@ body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
-header {
+.header {
   font-size: 2rem;
   min-height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.markdownInput {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  align-items: flex-end;
+}
+.title {
+
+}
+.note {
+  
 }
